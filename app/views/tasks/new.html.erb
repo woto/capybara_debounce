@@ -1,2 +1,6 @@
-<h1>Tasks#new</h1>
-<p>Find me in app/views/tasks/new.html.erb</p>
+<p><b>0</b> submits to server</p>
+
+<%= form_tag tasks_path, remote: true do %>
+<% end %>
+
+<a href="#">Debounced submit</a>

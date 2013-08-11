@@ -45,3 +45,4 @@ end
 gem 'debugger', group: [:development, :test]
 
 gem 'capybara', github: 'jnicklas/capybara'
+gem 'poltergeist', github: 'jonleighton/poltergeist'
